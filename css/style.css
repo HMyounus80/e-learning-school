@@ -96,7 +96,6 @@ footer ul li  {
 }
 
 
-
 @media only screen and (max-width:768px ){
      .card.courses{
         margin-bottom: 20px;
@@ -109,4 +108,3 @@ footer ul li  {
       .card.book {
         margin-bottom: 20px;
     }
-}
