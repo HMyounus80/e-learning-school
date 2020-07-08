@@ -1,0 +1,112 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-bottom: 100px;
+}
+.btn {
+    background-color: #21B573;
+    border-radius: 33px;
+    color: white;
+}
+.btn:hover{
+    color: white;
+}
+.header-section {
+    background-color: #F0FFF0;
+}
+.success-highlight {
+    color: #21B573;
+}
+.orange-highlight {
+    color: #FD511A;
+}
+h2 {
+    font-weight: 700;
+}
+.card {
+    border: none;
+    background-color: #F0FFF0;
+    border-radius:5px;
+}
+ #white-shadow {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px lightgray;
+}
+.card-icon img{
+    width: 20px;
+    height: 20px;
+}
+.card-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.card-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-left p{
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+ .card.courses {
+     border: none;
+     padding: 10px;
+     background-color: white;
+     box-shadow: 10px 10px 10px lightgray;
+
+}
+.testimonial {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.testimonial img{
+    max-width: 70%;
+    height: auto;
+  
+}
+footer{
+    background-color: #282531;
+}
+footer p {
+    color: #fff;
+    font-weight: 300;
+}
+footer ul li  {
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+    line-height: 30px;
+}
+#highlight  {
+    border-bottom: 2px solid white;
+    width: 100px;
+    font-size: large;
+}
+
+
+
+@media only screen and (max-width:768px ){
+     .card.courses{
+        margin-bottom: 20px;
+    }
+    .card.book {
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width:576px ) {
+      .card.book {
+        margin-bottom: 20px;
+    }
+}
